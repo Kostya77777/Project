@@ -1,0 +1,256 @@
+html {
+  font-family: "Playfair Display";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+} 
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap2 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-heading {
+  line-height: 30px;
+  margin: 0;
+  font-family: 'Inconsolata';
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 300;
+}
+
+.header-nav {
+  width: 576px;
+}
+
+.header-nav .nav-list {
+  padding-left: 0;
+  list-style: none;
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 14px;
+  
+}
+
+.header-nav .nav-list a {
+  color: #626262;
+}
+
+.header-img-1 {
+  margin-top: 40px;
+  width: 100%;
+  height: 509px;
+}
+
+.main-txt .main-txt-1 {
+  margin-top: 111px;
+  color: #b4ad9e;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-header .main-header-1 {
+  color: #626262;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.main-header .main-header-2 {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main-header .main-header-3 {
+  margin-bottom: 125px;
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-block .main-block-txt {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-block .main-block-txt-1 {
+  color: #626262;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.main-block .main-block-txt-2 {
+  width: 414px;
+  height: 63px;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main-block1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-block2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-search {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 122px;
+  height: 287px;
+  background-color: #f0f0f0;
+}
+
+.main-search .main-search-txt {
+  padding-top: 73px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+}
+
+.main-from {
+  width: 355px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-from .button-search {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.main-from .button-search:hover {
+  cursor: pointer ;
+}
+
+.main-from .line {
+  border: 1px solid #000000;
+
+}
+
+.main-from .input-search {
+  box-sizing: border-box;
+  font-size: 28px;
+  padding-left: 10px;
+  padding-right: 32px;
+  height: 32px;
+  width: 100%;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 14px;
+}
+
+.main-from .line-search {
+  margin-bottom: 12px;
+  width: 395px;
+}
+
+.main-blocks2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button .main-button1 {
+  margin-top: 150px;
+  background-color: transparent;
+  width: 164px;
+  height: 60px;
+  border: 1px solid #626262;
+  color: #626262;
+  font-size: 20px;
+}
+
+.footer {
+  flex-wrap: wrap;
+  height: 97px;
+  background-color: #f0f0f0;
+}
+
+.footer-inf {
+  margin: 0 auto;
+  max-width: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+.footer-inf .footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 200px;
+  list-style: none;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-left: 127px;
+}
+
+
+
+.footer-follow .footer-list2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 140px;
+  list-style: none;
+  font-size: 14px;
+  padding-left: 0px;
+}
